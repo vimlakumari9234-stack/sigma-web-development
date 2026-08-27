@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scalw="1.0">
+        <title> more on css selector</title>
+        <style>
+            /* .boxes :nth-child(1){ */
+                /* background-color: red; */
+            /* } */
+            /* .box:first-line{>
+                color:pink;
+            } */
+             /* .boxes *{
+                color:orangered;
+                border:2px solid black;
+             }
+
+             /* atribute */
+             /* p,a,.box, [data-color="primary"]{ */
+                /* padding-top: 45px; */
+             /* } */ 
+             /* .box:nth-last-of-type{ */
+                  /* background-color: chocolate; */
+             /* } */
+             
+        .boxes::before{
+            content: "i am good";
+            color: chartreuse;
+        }
+
+        .boxes::after{
+           content:"this is sigma veb development course";
+           color:brown;
+        }
+        .boxes::selection{
+            color:bisque;
+        }
+        .box::first-letter{
+            color:blueviolet;
+            font-size:45px ;
+        }
+
+        input::placeholder{
+            color: pink;
+    
+        }
+
+        
+        </style>
+    </head>
+    <body>
+        <div class="boxes">
+            <div data-color="primary" class="box">Hey i am box</div>
+            <div class="box">Hey i am box</div>
+            <div class="box">Hey i am box</div>
+            <input type="text" placeholder="Type your name here">
+        </div>
+
+    </body>
+</html>

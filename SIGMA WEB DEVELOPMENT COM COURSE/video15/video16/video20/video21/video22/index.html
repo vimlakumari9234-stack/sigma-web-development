@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale="1.0">
+        <title></title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+
+            .html{
+                font-size: 12px;
+            }
+            .box{
+                abox-sizing: border-box;
+                border:2px solid black;
+                /* width:2048px; */
+                width: 80vw;
+                margin:23px auto;
+                background-color:red;
+
+            }
+
+        .container{
+            box-sizing: border-box;
+                border:2px solid black;
+                /* width:2048px; */
+                width: 80vw;
+                min-height: 80vh;
+                margin:auto;
+                font-size: 16px;
+                background-color:red;
+
+        }
+
+        .container > div{
+               font-size: 1rem;
+               border: 2px solid red;
+               width: 50%;
+        }
+
+        .container > div > div{
+            border: 2px solid blue;
+            width: 50%;
+        }
+
+        .mycont{
+            box-sizing: border-box;
+            margin: 23px auto;
+            border: 2px solid black;
+            color: rgb(red, green, blue);
+            font-size: 22px;
+            width: 80vw;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+            this is a box
+        </div>
+
+        <div class="container">
+            <div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio minima neque illum consectetur aspernatur optio nostrum rem cupiditate pariatur enim veritatis asperiores sequi eos quo illo, corporis, at nobis inventore necessitatibus magni possimus accusantium. Iure at consectetur rem. Aperiam rerum itaque ipsa, maiores illo nisi nobis adipisci ad quo sed repudiandae quas similique quia laudantium reic
+                <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab, qui veritatis, nemo atque modi vitae aspernatur quidem et, magni voluptates incidunt reiciendis eaque.</div>
+            </div>
+            </div>
+       <div class="mycont">
+        this is other container
+       </div>
+    </body>
+    </html>
