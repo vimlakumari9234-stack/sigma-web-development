@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale="1.0">
+        <title>css grid </title>
+        <style>
+            .container{
+                
+                display: grid;
+               grid-template-columns: 1fr 1fr 1fr;
+            }
+            .box{
+                border: 2px solid white;
+                width:45vw;
+                height:25vh;
+                background-color: white;
+                display: flex;
+            
+            }
+            .box img{
+                width:30px;
+                height: 30px;
+                border-radius: 50px;
+        
+                
+
+            }
+            .big{
+                font-size: xx-large;
+            }
+        
+            .small{
+                font-size:xx-small;
+            }
+            .text{
+                display: flex;
+                flex-direction: column;
+            }
+            .button{
+                text-decoration: none;
+                  color: black !important;
+                width:7px;
+                display: flex;
+                text-align: center;
+                margin: 15px;
+                padding: 12px;
+            }
+            .yellow{
+                display: flex;
+              
+                background-color: yellow;
+                border: none;
+                padding: 8px 14px;
+                border-radius: 5px;
+                font-weight: bold;
+            }
+            .white{
+                 background-color: white;
+                border: 2px solid yellow;
+                padding: 8px 14px;
+                border-radius: 5px;
+                font-weight: bold;
+
+            }
+        
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+            <img src="flag.png">
+           <div class="text">
+            <span class="big">English</span>
+             <span class="small">Default-English(us).v2024.1</span>
+              <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+            </div>
+            </div>
+            
+             <div class="box">
+             <img src="deu.png">
+             <div class="text">
+                 <span class="big">Deutsch</span>
+             <span class="small">German.v2024.1</span>
+              <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+             </div>
+             </div> 
+            <div class="box">
+            <img src="ita.png">
+             <div class="text">
+                 <span class="big">Italiano</span>
+             <span class="small">Italin.v2024.1</span>
+              <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+             </div>
+             </div> 
+
+
+            <div class="box">
+            <img src="fran.png">
+             <div class="text">
+                 <span class="big">Francise</span>
+             <span class="small">French.v2024.1</span>
+             <!-- <a href="https://www.ultraedit.com/download/" class="yellow">32-bit</a> -->
+             <!-- <a href="https://www.ultraedit.com/download/" class="white">64-bit</a> -->
+             <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+             
+
+
+             </div>
+             </div> 
+
+            <div class="box">
+            <img src="esp.png">
+            <div class="text">
+                 <span class="big">Espanol</span>
+             <span class="small">spanish.v2024.1</span>
+              <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+             </div>
+             </div> 
+            <div class="box">
+                <img src="jap.png">
+                 <div class="text">
+                 <span class="big">Japani</span>
+             <span class="small">japanese.v2024.1</span>
+              <div class="button">
+                <button class="yellow">
+                <a href="link" target="_blank">download 32-bit </a>
+                </button>
+             <button class="white">
+             <a href="link" target="_blank">download 64-bit</a>
+
+             </button>
+             </div>
+             </div>
+             </div> 
+
+        </div>
+
+    </body>
+</html>
